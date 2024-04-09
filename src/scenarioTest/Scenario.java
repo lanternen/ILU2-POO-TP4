@@ -31,19 +31,19 @@ public class Scenario {
 		Poisson poisson1 = new Poisson("lundi");
 		Poisson[] poissons = { poisson1 };
 
-		village.installerVendeur(etalSanglierAsterix, asterix, sangliersAsterix, 10);
-		village.installerVendeur(etalSanglierObelix, obelix, sangliersObelix, 8);
-		village.installerVendeur(etalPoisson, ordralfabetix, poissons, 5);
-
-		System.out.println(village);
-
-		DepenseMarchand[] depense = village.acheterProduit("sanglier", 3);
-
-		for (int i = 0; i < depense.length && depense[i] != null; i++) {
-			System.out.println(depense[i]);
-		}
-
-		System.out.println(village);
+//		village.installerVendeur(etalSanglierAsterix, asterix, sangliersAsterix, 10);
+//		village.installerVendeur(etalSanglierObelix, obelix, sangliersObelix, 8);
+//		village.installerVendeur(etalPoisson, ordralfabetix, poissons, 5);
+//
+//		System.out.println(village);
+//
+//		DepenseMarchand[] depense = village.acheterProduit("sanglier", 3);
+//
+//		for (int i = 0; i < depense.length && depense[i] != null; i++) {
+//			System.out.println(depense[i]);
+//		}
+//
+//		System.out.println(village);
 
 	}
 
